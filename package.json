@@ -1,0 +1,28 @@
+{
+  "name": "work-shift-manager-back",
+  "version": "1.0.0",
+  "description": "This project is a shift manager to help workers calculate their work hours.",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfzini/work-shift-manager-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfzini/work-shift-manager-back/issues"
+  },
+  "homepage": "https://github.com/jfzini/work-shift-manager-back#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
